@@ -90,3 +90,9 @@ if (require.main === module) {
 }
 
 module.exports = hasTargetSum;
+
+/*
+P.S. after looking at the solution on canvas, I feel very silly for not remembering that sets
+exist. implementing the sorted array as a set immediately drops my complexity to O(n) at worst case.
+Oh well, still some good attempts in there, especially for my 3rd day getting back into algorithms
+*/
